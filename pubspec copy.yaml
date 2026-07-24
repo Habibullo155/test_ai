@@ -1,0 +1,23 @@
+name: ai_glass_chat
+description: "AI чат (Gemma 4 E2B через локальный Ollama + FastAPI) с эффектом глазморфизма, адаптивный для мобильных, планшетов, десктопа и веба."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  uuid: ^4.5.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
